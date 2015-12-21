@@ -1,0 +1,4 @@
+﻿  nasm: fatal: unable to open input file `C:\Users\orenmn\cpython\externals\openssl-1.0.2d\tmp32\aes-586.asm'
+C:\Users\orenmn\cpython\PCbuild\openssl.props(69,5): error MSB3073: The command "setlocal
+C:\Users\orenmn\cpython\PCbuild\openssl.props(69,5): error MSB3073: set PATH=C:\Users\orenmn\cpython\externals\\nasm-2.11.06\;%PATH%
+C:\Users\orenmn\cpython\PCbuild\openssl.props(69,5): error MSB3073: nasm.exe -f win32 -o "C:\Users\orenmn\cpython\externals\openssl-1.0.2d\tmp\\win32_Debug\libeay\aes-586.obj" "C:\Users\orenmn\cpython\externals\openssl-1.0.2d\tmp32\aes-586.asm"" exited with code 1.

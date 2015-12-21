@@ -1,0 +1,81 @@
+﻿  d1_both.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\d1_both.c': No such file or directory
+  d1_lib.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\d1_lib.c': No such file or directory
+  d1_pkt.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\d1_pkt.c': No such file or directory
+  d1_srtp.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\d1_srtp.c': No such file or directory
+  s2_clnt.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\s2_clnt.c': No such file or directory
+  s2_enc.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\s2_enc.c': No such file or directory
+  s2_lib.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\s2_lib.c': No such file or directory
+  s2_meth.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\s2_meth.c': No such file or directory
+  s2_pkt.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\s2_pkt.c': No such file or directory
+  s2_srvr.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\s2_srvr.c': No such file or directory
+  s23_clnt.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\s23_clnt.c': No such file or directory
+  s23_lib.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\s23_lib.c': No such file or directory
+  s23_meth.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\s23_meth.c': No such file or directory
+  s23_pkt.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\s23_pkt.c': No such file or directory
+  s23_srvr.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\s23_srvr.c': No such file or directory
+  s3_both.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\s3_both.c': No such file or directory
+  s3_cbc.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\s3_cbc.c': No such file or directory
+  s3_clnt.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\s3_clnt.c': No such file or directory
+  s3_enc.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\s3_enc.c': No such file or directory
+  s3_lib.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\s3_lib.c': No such file or directory
+  Generating Code...
+  Compiling...
+  s3_meth.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\s3_meth.c': No such file or directory
+  s3_pkt.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\s3_pkt.c': No such file or directory
+  s3_srvr.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\s3_srvr.c': No such file or directory
+  ssl_algs.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\ssl_algs.c': No such file or directory
+  ssl_asn1.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\ssl_asn1.c': No such file or directory
+  ssl_cert.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\ssl_cert.c': No such file or directory
+  ssl_ciph.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\ssl_ciph.c': No such file or directory
+  ssl_err.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\ssl_err.c': No such file or directory
+  ssl_err2.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\ssl_err2.c': No such file or directory
+  ssl_lib.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\ssl_lib.c': No such file or directory
+  ssl_rsa.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\ssl_rsa.c': No such file or directory
+  ssl_sess.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\ssl_sess.c': No such file or directory
+  t1_clnt.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\t1_clnt.c': No such file or directory
+  t1_enc.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\t1_enc.c': No such file or directory
+  t1_lib.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\t1_lib.c': No such file or directory
+  t1_meth.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\t1_meth.c': No such file or directory
+  t1_reneg.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\t1_reneg.c': No such file or directory
+  t1_srvr.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\t1_srvr.c': No such file or directory
+  tls_srp.c
+c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\openssl-1.0.2d\ssl\tls_srp.c': No such file or directory
+  Generating Code...

@@ -1,0 +1,7 @@
+﻿  overlapped.c
+..\Modules\overlapped.c(977): warning C4996: 'WSAStringToAddressA': Use WSAStringToAddressW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(3623): note: see declaration of 'WSAStringToAddressA'
+..\Modules\overlapped.c(988): warning C4996: 'WSAStringToAddressA': Use WSAStringToAddressW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(3623): note: see declaration of 'WSAStringToAddressA'
+     Creating library C:\Users\orenmn\cpython\PCBuild\win32\_overlapped_d.lib and object C:\Users\orenmn\cpython\PCBuild\win32\_overlapped_d.exp
+  _overlapped.vcxproj -> C:\Users\orenmn\cpython\PCBuild\win32\_overlapped_d.pyd

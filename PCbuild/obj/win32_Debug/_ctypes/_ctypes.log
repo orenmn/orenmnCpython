@@ -1,0 +1,12 @@
+﻿  _ctypes.c
+  callbacks.c
+  callproc.c
+  cfield.c
+  ffi.c
+  malloc_closure.c
+  prep_cif.c
+  stgdict.c
+  win32.c
+  Generating Code...
+     Creating library C:\Users\orenmn\cpython\PCBuild\win32\_ctypes_d.lib and object C:\Users\orenmn\cpython\PCBuild\win32\_ctypes_d.exp
+  _ctypes.vcxproj -> C:\Users\orenmn\cpython\PCBuild\win32\_ctypes_d.pyd

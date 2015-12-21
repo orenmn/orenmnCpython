@@ -1,0 +1,16 @@
+﻿Build started 12/21/2015 12:18:28 PM.
+     1>Project "C:\Users\orenmn\cpython\PCbuild\pylauncher.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Users\orenmn\cpython\Include /IC:\Users\orenmn\cpython\PC /Zi /nologo /W3 /WX- /Od /Oi /Oy- /D _CONSOLE /D WIN32 /D _WIN32 /D _DEBUG /D _MBCS /GF /Gm- /MT /GS /Gy /arch:IA32 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"C:\Users\orenmn\cpython\PCbuild\obj\\win32_Debug\pylauncher\\" /Fd"C:\Users\orenmn\cpython\PCbuild\obj\\win32_Debug\pylauncher\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt ..\PC\launcher.c
+         launcher.c
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /l"0x0409" /IC:\Users\orenmn\cpython\PC /IC:\Users\orenmn\cpython\Include /nologo /fo"C:\Users\orenmn\cpython\PCbuild\obj\\win32_Debug\pylauncher\pylauncher.res" ..\PC\pylauncher.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\orenmn\cpython\PCBuild\win32\py_d.exe" /NOLOGO /LIBPATH:C:\Users\orenmn\cpython\PCBuild\win32\ version.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBC /MANIFEST:NO /Debug /PDB:"C:\Users\orenmn\cpython\PCBuild\win32\py_d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\orenmn\cpython\PCBuild\win32\py_d.lib" /MACHINE:X86 /SAFESEH C:\Users\orenmn\cpython\PCbuild\obj\\win32_Debug\pylauncher\pylauncher.res
+         C:\Users\orenmn\cpython\PCbuild\obj\\win32_Debug\pylauncher\launcher.obj
+         pylauncher.vcxproj -> C:\Users\orenmn\cpython\PCBuild\win32\py_d.exe
+     1>Done Building Project "C:\Users\orenmn\cpython\PCbuild\pylauncher.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.07

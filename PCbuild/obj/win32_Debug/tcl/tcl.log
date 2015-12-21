@@ -1,0 +1,27 @@
+﻿  The system cannot find the path specified.
+  
+  Microsoft (R) Program Maintenance Utility Version 14.00.23506.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+NMAKE : fatal error U1052: file 'makefile.vc' not found
+  Stop.
+  
+  Microsoft (R) Program Maintenance Utility Version 14.00.23506.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+NMAKE : fatal error U1052: file 'makefile.vc' not found
+  Stop.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(37,5): error MSB3073: The command "setlocal
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(37,5): error MSB3073: if not exist "C:\Users\orenmn\cpython\externals\tcltk\bin\tcl86tg.dll" goto build
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(37,5): error MSB3073: if not exist "C:\Users\orenmn\cpython\externals\tcltk\bin\tclsh86tg.exe" goto build
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(37,5): error MSB3073: if not exist "C:\Users\orenmn\cpython\externals\tcltk\include\tcl.h" goto build
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(37,5): error MSB3073: if not exist "C:\Users\orenmn\cpython\externals\tcltk\lib\tcl8" goto build
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(37,5): error MSB3073: if not exist "C:\Users\orenmn\cpython\externals\tcltk\lib\tcl8.6" goto build
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(37,5): error MSB3073: if not exist "C:\Users\orenmn\cpython\externals\tcltk\lib\tcl86tg.lib" goto build
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(37,5): error MSB3073: goto :eof
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(37,5): error MSB3073: :build
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(37,5): error MSB3073: set VCINSTALLDIR=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(37,5): error MSB3073: cd /D "C:\Users\orenmn\cpython\externals\tcl-core-8.6.4.2\win"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(37,5): error MSB3073: nmake -f makefile.vc MACHINE=IX86 OPTS=symbols,msvcrt INSTALLDIR="C:\Users\orenmn\cpython\externals\tcltk" INSTALL_DIR="C:\Users\orenmn\cpython\externals\tcltk" DEBUGFLAGS="-wd4456 -wd4457 -wd4458 -wd4459 -wd4996" core shell dlls
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(37,5): error MSB3073: nmake -f makefile.vc MACHINE=IX86 OPTS=symbols,msvcrt INSTALLDIR="C:\Users\orenmn\cpython\externals\tcltk" INSTALL_DIR="C:\Users\orenmn\cpython\externals\tcltk" DEBUGFLAGS="-wd4456 -wd4457 -wd4458 -wd4459 -wd4996" install-binaries install-libraries
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(37,5): error MSB3073: " exited with code 2.

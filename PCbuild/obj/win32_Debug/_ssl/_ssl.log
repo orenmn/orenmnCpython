@@ -1,0 +1,2 @@
+﻿  _ssl.c
+..\Modules\_ssl.c(59): fatal error C1083: Cannot open include file: 'openssl/rsa.h': No such file or directory
