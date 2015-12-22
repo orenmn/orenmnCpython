@@ -1614,6 +1614,18 @@ tok_get(struct tok_state *tok, char **p_start, char **p_end)
                     c = tok_nextc(tok);
                 } while ('0' <= c && c < '8');
             }
+            else if (c == 'd' || c == 'D') {    // orenmnCodeBlock
+                /* Decimal */
+                c = tok_nextc(tok);
+                if (c < '0' || c > '9') {
+                    tok->done = E_TOKEN;
+                    tok_backup(tok, c);
+                    return ERRORTOKEN;
+                }
+                do {
+                    c = tok_nextc(tok);
+                } while ('0' <= c && c <= '9');
+            }
             else if (c == 'b' || c == 'B') {
                 /* Binary */
                 c = tok_nextc(tok);
@@ -1650,10 +1662,12 @@ tok_get(struct tok_state *tok, char **p_start, char **p_end)
             }
         }
         else {
-            /* Decimal */
+            /* origComment: Decimal */
+            /* orenmnComment: Hex */
             do {
                 c = tok_nextc(tok);
-            } while (isdigit(c));
+            // origLine: } while (isdigit(c));
+            } while (isxdigit(c));   // orenmnLine
             {
                 /* Accept floating point numbers. */
                 if (c == '.') {

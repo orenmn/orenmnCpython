@@ -102,7 +102,9 @@ PyOS_strtoul(const char *str, char **ptr, int base)
     while (*str && Py_ISSPACE(Py_CHARMASK(*str)))
         ++str;
 
-    /* check for leading 0b, 0o or 0x for auto-base or base 16 */
+    /* origComment: check for leading 0b, 0o or 0x for auto-base or base 16 */
+    /* orenmnComment: check for leading 0b, 0o, 0d or 0x for auto-base and 
+    for explicit base */
     switch (base) {
     case 0:             /* look for leading 0b, 0o or 0x */
         if (*str == '0') {
@@ -125,6 +127,15 @@ PyOS_strtoul(const char *str, char **ptr, int base)
                 }
                 ++str;
                 base = 8;
+            } else if (*str == 'd' || *str == 'D') {    // orenmnCodeBlock
+                /* there must be at least one digit after 0d */
+                if (_PyLong_DigitValue[Py_CHARMASK(str[1])] >= 10) {
+                    if (ptr)
+                        *ptr = (char *)str;
+                    return 0;
+                }
+                ++str;
+                base = 10;
             } else if (*str == 'b' || *str == 'B') {
                 /* there must be at least one digit after 0b */
                 if (_PyLong_DigitValue[Py_CHARMASK(str[1])] >= 2) {
@@ -146,7 +157,8 @@ PyOS_strtoul(const char *str, char **ptr, int base)
             }
         }
         else
-            base = 10;
+            // origLine: base = 10;
+            base = 0x10;    // orenmnLine
         break;
 
     /* even with explicit base, skip leading 0? prefix */
@@ -156,6 +168,20 @@ PyOS_strtoul(const char *str, char **ptr, int base)
             if (*str == 'x' || *str == 'X') {
                 /* there must be at least one digit after 0x */
                 if (_PyLong_DigitValue[Py_CHARMASK(str[1])] >= 16) {
+                    if (ptr)
+                        *ptr = (char *)str;
+                    return 0;
+                }
+                ++str;
+            }
+        }
+        break;
+    case 10:    // orenmnCodeBlock
+        if (*str == '0') {
+            ++str;
+            if (*str == 'd' || *str == 'D') {
+                /* there must be at least one digit after 0d */
+                if (_PyLong_DigitValue[Py_CHARMASK(str[1])] >= 10) {
                     if (ptr)
                         *ptr = (char *)str;
                     return 0;
