@@ -432,7 +432,7 @@ PyDoc_STRVAR(builtin_hex__doc__,
 
 
 /* orenmnStrVar */
-PyDoc_STRVAR(builtin_dec__doc__,
+PyDoc_STRVAR(orenmn_builtin_dec__doc__,
 "dec($module, number, /)\n"
 "--\n"
 "\n"
@@ -441,9 +441,8 @@ PyDoc_STRVAR(builtin_dec__doc__,
 "   >>> dec(1000)\n"
 "   \'0d4096\'");
   
-/* orenmnMethodDef */
-#define BUILTIN_DEC_METHODDEF    \
-    {"dec", (PyCFunction)builtin_dec, METH_O, builtin_dec__doc__},
+#define ORENMN_BUILTIN_DEC_METHODDEF    \
+    {"dec", (PyCFunction)orenmn_builtin_dec, METH_O, orenmn_builtin_dec__doc__},
 
 
 

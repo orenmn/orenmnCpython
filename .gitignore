@@ -18,4 +18,4 @@ $RECYCLE.BIN/
 *.lnk
 
 PCbuild/obj/
-# PCbuild/win32/
+PCbuild/win32/

@@ -1402,9 +1402,8 @@ builtin_hex(PyModuleDef *module, PyObject *number)
     return PyNumber_ToBase(number, 16);
 }
 
-/* orenmnFuncDef */
 static PyObject *   
-builtin_dec(PyModuleDef *module, PyObject *number)
+orenmn_builtin_dec(PyModuleDef *module, PyObject *number)
 {
     PyObject *decDigitsUnicode = PyNumber_ToBase(number, 10);
     if (!decDigitsUnicode)
@@ -2618,7 +2617,7 @@ static PyMethodDef builtin_methods[] = {
     BUILTIN_HASATTR_METHODDEF
     BUILTIN_HASH_METHODDEF
     BUILTIN_HEX_METHODDEF
-    BUILTIN_DEC_METHODDEF   // orenmnLine
+    ORENMN_BUILTIN_DEC_METHODDEF
     BUILTIN_ID_METHODDEF
     BUILTIN_INPUT_METHODDEF
     BUILTIN_ISINSTANCE_METHODDEF
