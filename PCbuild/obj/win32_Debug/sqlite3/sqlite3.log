@@ -1,2 +1,0 @@
-﻿  sqlite3.c
-c1 : fatal error C1083: Cannot open source file: 'C:\Users\orenmn\cpython\externals\sqlite-3.8.11.0\\sqlite3.c': No such file or directory

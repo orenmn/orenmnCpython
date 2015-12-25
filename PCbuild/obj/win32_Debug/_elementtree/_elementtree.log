@@ -1,7 +1,0 @@
-﻿  _elementtree.c
-  xmlparse.c
-  xmlrole.c
-  xmltok.c
-  Generating Code...
-     Creating library C:\Users\orenmn\cpython\PCBuild\win32\_elementtree_d.lib and object C:\Users\orenmn\cpython\PCBuild\win32\_elementtree_d.exp
-  _elementtree.vcxproj -> C:\Users\orenmn\cpython\PCBuild\win32\_elementtree_d.pyd
