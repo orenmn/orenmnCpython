@@ -430,6 +430,23 @@ PyDoc_STRVAR(builtin_hex__doc__,
 #define BUILTIN_HEX_METHODDEF    \
     {"hex", (PyCFunction)builtin_hex, METH_O, builtin_hex__doc__},
 
+
+/* orenmnStrVar */
+PyDoc_STRVAR(builtin_dec__doc__,
+"dec($module, number, /)\n"
+"--\n"
+"\n"
+"Return the decimal representation of an integer.\n"
+"\n"
+"   >>> dec(1000)\n"
+"   \'0d4096\'");
+  
+/* orenmnMethodDef */
+#define BUILTIN_DEC_METHODDEF    \
+    {"dec", (PyCFunction)builtin_dec, METH_O, builtin_dec__doc__},
+
+
+
 PyDoc_STRVAR(builtin_len__doc__,
 "len($module, obj, /)\n"
 "--\n"
