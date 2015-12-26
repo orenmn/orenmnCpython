@@ -19,3 +19,4 @@ $RECYCLE.BIN/
 
 PCbuild/obj/
 PCbuild/win32/
+*/__pycache__/
