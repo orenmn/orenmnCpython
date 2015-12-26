@@ -2055,16 +2055,13 @@ PyLong_FromString(const char *str, char **pend, int base)
     }
     if (base == 0) {
         if (str[0] != '0')
-            // origLine: base = 10;
-            base = 0x10;    // orenmnLine
+            base = 10;
         else if (str[1] == 'x' || str[1] == 'X')
             base = 16;
         else if (str[1] == 'o' || str[1] == 'O')
             base = 8;
         else if (str[1] == 'b' || str[1] == 'B')
             base = 2;
-        else if (str[1] == 'd' || str[1] == 'D')    // orenmnCodeBlock
-            base = 10;
         else {
             /* "old" (C-style) octal literal, now invalid.
                it might still be zero though */
@@ -2075,7 +2072,6 @@ PyLong_FromString(const char *str, char **pend, int base)
     if (str[0] == '0' &&
         ((base == 16 && (str[1] == 'x' || str[1] == 'X')) ||
          (base == 8  && (str[1] == 'o' || str[1] == 'O')) ||
-         (base == 10 && (str[1] == 'd' || str[1] == 'D')) ||    // orenmnLine
          (base == 2  && (str[1] == 'b' || str[1] == 'B'))))
         str += 2;
 

@@ -1319,8 +1319,7 @@ float_fromhex(PyObject *cls, PyObject *arg)
         s++;
         while ('0' <= *s && *s <= '9')
             s++;
-        // origLine: exp = strtol(exp_start, NULL, 10);
-        exp = strtol(exp_start, NULL, 0x10); // orenmnLine
+        exp = strtol(exp_start, NULL, 10);
     }
     else
         exp = 0;

@@ -5,4 +5,4 @@
 @rem This is only meant as a convenience for developing CPython
 @rem and using it outside of that context is ill-advised.
 @echo Running Release^|Win32 interpreter...
-@"C:\Users\orenmn\Documents\GitHub\orenmnCpython\PCBuild\win32\python.exe" %*
+@"C:\Users\orenmn\orenmnCpython\PCBuild\win32\python.exe" %*

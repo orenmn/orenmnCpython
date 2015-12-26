@@ -394,8 +394,7 @@ _PyRandom_Init(void)
     if (env && *env != '\0' && strcmp(env, "random") != 0) {
         char *endptr = env;
         unsigned long seed;
-        // origLine: seed = strtoul(env, &endptr, 10);
-        seed = strtoul(env, &endptr, 0x10);     // orenmnLine
+        seed = strtoul(env, &endptr, 10);
         if (*endptr != '\0'
             || seed > 4294967295UL
             || (errno == ERANGE && seed == ULONG_MAX))
