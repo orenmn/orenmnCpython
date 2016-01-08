@@ -1650,11 +1650,17 @@ tok_get(struct tok_state *tok, char **p_start, char **p_end)
             }
         }
         else {
-            /* Decimal */
+            /* origComment: Decimal */
+            /* orenmnComment: Hex */
+            int orenmn_is_hex_int_literal = 0;
             do {
                 c = tok_nextc(tok);
-            } while (isdigit(c));
-            {
+                if (isxdigit(c) && !isdigit(c))
+                    orenmn_is_hex_int_literal = 1;
+            // origLine: } while (isdigit(c));
+            } while (isxdigit(c));  // orenmnLine
+            // origLine: {
+            if (!orenmn_is_hex_int_literal) {
                 /* Accept floating point numbers. */
                 if (c == '.') {
         fraction:
