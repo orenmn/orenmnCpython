@@ -3900,10 +3900,12 @@ parsenumber(struct compiling *c, const char *s)
         }
     }
     else
-        x = PyOS_strtol(s, (char **)&end, 0);
+        // origLine: x = PyOS_strtol(s, (char **)&end, 0);
+        x = PyOS_strtol(s, (char **)&end, 0x10);   // orenmnLine
     if (*end == '\0') {
         if (errno != 0)
-            return PyLong_FromString(s, (char **)0, 0);
+            // origLine: return PyLong_FromString(s, (char **)0, 0);
+            return PyLong_FromString(s, (char **)0, 0x10);     // orenmnLine
         return PyLong_FromLong(x);
     }
     /* XXX Huge floats may silently fail */
